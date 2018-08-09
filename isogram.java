@@ -5,26 +5,24 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class gcd
+class isogram
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
-		int b=sc.nextInt();
-		int c=gcd(a,b);
-		System.out.println(c);
-	}
-	static int gcd(int a,int b)
-	{
-		if(a==0 ||b==0)
-			return 0;
-		if(a==b)
-			return a;
-		if(a>b)
-		return gcd(a-b,b);
-		return gcd(a,b-a);
+		String str=sc.nextLine();
+		int count=0;
+		for(int i=0;i<str.length()-1;i++)
+		{
+			if(str.charAt(i)==str.charAt(i+1))
+			{
+				count++;
+			}
+		}
+		if(count==0)
+		System.out.println("yes");
+		else 
+		System.out.println("no");
 	}
 }
-	
