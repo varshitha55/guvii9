@@ -23,7 +23,7 @@ class midelem
 			str1 += "**";
 			n += 2;
 			for(int i=n;i<str.length;i++)
-			st1+=str.charAt(i);
+			str1+=str.charAt(i);
 		}
 		else 
 		{
