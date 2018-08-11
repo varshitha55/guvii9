@@ -7,11 +7,11 @@ int main(void)
 	scanf("%d",&n);
 	if(n>=1 &&n<=10)
 	{
-		printf("\n yes");
+		printf("yes");
 	}
 	else 
 	{
-		printf("\n no");
+		printf("no");
 	}
 	return 0;
 }
