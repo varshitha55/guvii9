@@ -16,7 +16,7 @@ int main(void)
 		else
 		{
 			flag=1;
-			printf("no");
+			printf("No");
 			break;
 		}
 	}
