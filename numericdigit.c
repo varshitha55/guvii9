@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) 
+{
+	// your code goes here
+	char s[50];
+	int i,count=0;
+	scanf("%s",s);
+	for(i=0;s[i]!='\0';i++)
+	{
+		if(s[i]>='0' && s[i]<='9')
+		{
+			count=count+1;
+		}
+	}
+	printf("%d",count);
+	return 0;
+}
