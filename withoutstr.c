@@ -10,7 +10,7 @@ int main()
       str1[i]=str2[j];
    }
    str1[i]='\0';
-   printf("\nOutput: %s",str1);
+   printf("\%s",str1);
    
    return 0;
 }
