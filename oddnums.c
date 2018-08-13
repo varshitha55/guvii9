@@ -10,7 +10,7 @@ int main(void) {
 		x=(int)(a[i]);
 		if(x%2!=0)
 		{
-			printf("%c",a[i]);	
+			printf("%c ",a[i]);	
 		}
 	}
 	return 0;
