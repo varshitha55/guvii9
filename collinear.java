@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class sameline
+class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -22,6 +22,12 @@ class sameline
 		else if(y1==y2 && y2==y3 && y3==y1)
 		  System.out.println("yes");
 		else
+		{
+			int a=x1 *(y2-y3)+x2*(y3-y1)+x3*(y1-y2);
+			if(a==0)
+			System.out.println("yes");
+			else
 			System.out.println("no");
+		}
 	}
 }
