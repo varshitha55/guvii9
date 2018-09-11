@@ -56,7 +56,7 @@ class arine
 		  	{
 		  		System.out.print(c[i]);
 				System.out.print(" ");
-				count++;
+				count--;
 		  	}
 		  }
 	}
